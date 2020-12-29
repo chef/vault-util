@@ -1,6 +1,6 @@
 steps:
   - label: ":go: lint"
-    command: golangci-lint run
+    command: golangci-lint run --timeout 5m0s
     expeditor:
       executor:
         docker:

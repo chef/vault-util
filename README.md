@@ -1,6 +1,6 @@
 # vault-util
 
-Vault util is a command line go utility/binary to access secrets and account information stored in Hashicorp Vault from CI.
+vault-util is a command line go utility/binary to access secrets and account information stored in Hashicorp Vault from CI.
 
 ### Installation
 
