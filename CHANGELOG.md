@@ -1,11 +1,16 @@
 # Changelog
 
-<!-- latest_release 1.0.3 -->
+<!-- latest_release 1.0.4 -->
+## [1.0.4](https://github.com/chef/vault-util/tree/1.0.4) (2020-12-29)
+
+#### Merged Pull Requests
+- Add util_name so we can keep .exe in binary for windows [#5](https://github.com/chef/vault-util/pull/5) ([nkierpiec](https://github.com/nkierpiec))
+<!-- latest_release -->
+
 ## [1.0.3](https://github.com/chef/vault-util/tree/1.0.3) (2020-12-29)
 
 #### Merged Pull Requests
 - Update script to simplify logic and unnest workdir directories [#4](https://github.com/chef/vault-util/pull/4) ([nkierpiec](https://github.com/nkierpiec))
-<!-- latest_release -->
 
 ## [1.0.2](https://github.com/chef/vault-util/tree/1.0.2) (2020-12-29)
 
