@@ -2,7 +2,6 @@ steps:
   - label: ":go: build"
     command: 
       - goreleaser build --rm-dist --skip-validate
-      - cd /workdir
       - tar -czf vault-util.tar.gz dist/
       - buildkite-agent artifact upload "vault-util.tar.gz"
     expeditor:
