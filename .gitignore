@@ -1,0 +1,13 @@
+results/
+.DS_Store
+*.swp
+build/
+.vscode/
+
+# goreleaser 
+dist/
+
+# releases
+go-binaries/
+*.zip
+*.tar.gz
