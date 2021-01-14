@@ -5,6 +5,8 @@ builds:
   - id: "vault-util"
     binary: vault-util
     main: main.go
+    ldflags:
+      - -s -w -X github.com/chef/vault-util/commands.version={{.Version}}
     env:
       - CGO_ENABLED=0
     goos:

@@ -23,10 +23,13 @@ var (
 
 	fslock filesystem.Locker
 
+	version string
+
 	rootCmd = &cobra.Command{
 		Use:          "vault-util",
 		Short:        "Utility to access secrets and account information stored in Hashicorp Vault from CI.",
 		SilenceUsage: true,
+		Version: 			version,
 	}
 
 	secretsClient secrets.Client
@@ -57,6 +60,8 @@ func Execute() {
 }
 
 func init() {
+	rootCmd.SetVersionTemplate("{{.Version}}\n")
+
 	cobra.OnInitialize(initConfig)
 
 	viper.SetDefault("aws.region", "us-east-1")
