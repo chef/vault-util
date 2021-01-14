@@ -1,11 +1,16 @@
 # Changelog
 
-<!-- latest_release 1.0.4 -->
+<!-- latest_release 1.0.5 -->
+## [1.0.5](https://github.com/chef/vault-util/tree/1.0.5) (2021-01-14)
+
+#### Merged Pull Requests
+- Add version flag [#6](https://github.com/chef/vault-util/pull/6) ([tduffield](https://github.com/tduffield))
+<!-- latest_release -->
+
 ## [1.0.4](https://github.com/chef/vault-util/tree/1.0.4) (2020-12-29)
 
 #### Merged Pull Requests
 - Add util_name so we can keep .exe in binary for windows [#5](https://github.com/chef/vault-util/pull/5) ([nkierpiec](https://github.com/nkierpiec))
-<!-- latest_release -->
 
 ## [1.0.3](https://github.com/chef/vault-util/tree/1.0.3) (2020-12-29)
 
