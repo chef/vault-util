@@ -13,6 +13,9 @@ RUN if [ "${INSTALL_NODE}" = "true" ]; then su vscode -c "umask 0002 && . /usr/l
 RUN apt-get update && apt-get -y install --no-install-recommends awscli \
     && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
+# Create the default settings directory
+RUN mkdir -p /var/opt/ci-utils && chown vscode /var/opt/ci-utils
+
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
