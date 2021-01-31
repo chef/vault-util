@@ -21,7 +21,17 @@
 		"go.useLanguageServer": true,
 		"go.gopath": "/go",
 		"go.goroot": "/usr/local/go",
-		"go.toolsGopath": "/go/bin"
+		"go.toolsGopath": "/go/bin",
+
+		// Disable testOnSave because tests can take a long time
+		"go.testOnSave": false,
+
+		// Use golangci-lint for a linter
+		// reference: https://golangci-lint.run/usage/integrations/
+		"go.lintTool": "golangci-lint",
+		"go.lintFlags": [
+			"--fast"
+		]
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
