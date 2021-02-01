@@ -85,9 +85,13 @@ func configureAccounts(accountsJSON map[string][]string) error {
 		for _, accountVal := range accountVals {
 			switch accountType {
 			case "aws":
-				return configureAws(accountVal)
+				if err := configureAws(accountVal); err != nil {
+					return err
+				}
 			case "github":
-				return configureGithub(accountVal)
+				if err := configureGithub(accountVal); err != nil {
+					return err
+				}
 			default:
 				return errors.New("unsupported account type")
 			}
