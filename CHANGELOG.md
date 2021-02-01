@@ -1,11 +1,16 @@
 # Changelog
 
-<!-- latest_release 1.0.6 -->
+<!-- latest_release 1.0.7 -->
+## [1.0.7](https://github.com/chef/vault-util/tree/1.0.7) (2021-02-01)
+
+#### Merged Pull Requests
+- Update pathing for dynamic github account [#9](https://github.com/chef/vault-util/pull/9) ([nkierpiec](https://github.com/nkierpiec))
+<!-- latest_release -->
+
 ## [1.0.6](https://github.com/chef/vault-util/tree/1.0.6) (2021-02-01)
 
 #### Merged Pull Requests
 - Fix configure-accounts so it can configure multiple accounts [#8](https://github.com/chef/vault-util/pull/8) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
-<!-- latest_release -->
 
 ## [1.0.5](https://github.com/chef/vault-util/tree/1.0.5) (2021-01-14)
 
