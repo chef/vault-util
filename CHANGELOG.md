@@ -1,11 +1,16 @@
 # Changelog
 
-<!-- latest_release 1.0.7 -->
+<!-- latest_release 1.0.8 -->
+## [1.0.8](https://github.com/chef/vault-util/tree/1.0.8) (2021-02-02)
+
+#### Merged Pull Requests
+- Set output to STDOUT so it doesn&#39;t default to STDERR [#10](https://github.com/chef/vault-util/pull/10) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
+<!-- latest_release -->
+
 ## [1.0.7](https://github.com/chef/vault-util/tree/1.0.7) (2021-02-01)
 
 #### Merged Pull Requests
 - Update pathing for dynamic github account [#9](https://github.com/chef/vault-util/pull/9) ([nkierpiec](https://github.com/nkierpiec))
-<!-- latest_release -->
 
 ## [1.0.6](https://github.com/chef/vault-util/tree/1.0.6) (2021-02-01)
 
