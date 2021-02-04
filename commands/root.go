@@ -39,7 +39,7 @@ var (
 // Execute handles the execution of child commands and flags.
 func Execute() {
 	var err error
-	var retryAttempts uint = 5
+	var retryAttempts uint = 10
 	var retryDelay time.Duration = 100
 
 	fs = filesystem.NewOsFs()
