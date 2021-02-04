@@ -1,11 +1,16 @@
 # Changelog
 
-<!-- latest_release 1.0.8 -->
+<!-- latest_release 2.0.0 -->
+## [2.0.0](https://github.com/chef/vault-util/tree/2.0.0) (2021-02-04)
+
+#### Merged Pull Requests
+- Some fixes [#11](https://github.com/chef/vault-util/pull/11) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
+<!-- latest_release -->
+
 ## [1.0.8](https://github.com/chef/vault-util/tree/1.0.8) (2021-02-02)
 
 #### Merged Pull Requests
 - Set output to STDOUT so it doesn&#39;t default to STDERR [#10](https://github.com/chef/vault-util/pull/10) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
-<!-- latest_release -->
 
 ## [1.0.7](https://github.com/chef/vault-util/tree/1.0.7) (2021-02-01)
 
