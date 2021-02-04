@@ -17,6 +17,10 @@ promote:
 
 github:
   delete_branch_on_merge: true
+  minor_bump_labels:
+    - "Expeditor: Bump Version Minor"
+  major_bump_labels:
+    - "Expeditor: Bump Version Major"
   release_branch:
     - main
 

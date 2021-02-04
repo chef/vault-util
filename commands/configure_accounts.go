@@ -40,6 +40,10 @@ func configureAccountsE(cmd *cobra.Command, args []string) error {
 		return err
 	}
 
+	defer func() {
+		_ = lock.Unlock()
+	}()
+
 	retryErr := retry.Do(
 		func() error {
 			_, lockErr := lock.TryLock()
@@ -55,11 +59,6 @@ func configureAccountsE(cmd *cobra.Command, args []string) error {
 			configErr := configureAccounts(accountsJSON)
 			if configErr != nil {
 				return errors.Wrap(configErr, "failed to configure accounts")
-			}
-
-			unlockErr := lock.Unlock()
-			if unlockErr != nil {
-				return errors.Wrap(unlockErr, "failed to release account configuration lock")
 			}
 
 			return nil

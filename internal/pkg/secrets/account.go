@@ -33,6 +33,7 @@ func (c *VaultClient) newAwsAccount(name string) (*Account, error) {
 	data["access_key_id"] = secret.Data["access_key"].(string)
 	data["secret_access_key"] = secret.Data["secret_key"].(string)
 	data["session_token"] = secret.Data["security_token"].(string)
+	data["region"] = viper.GetString("aws.region")
 
 	return &Account{
 		ID:   "aws/" + name,

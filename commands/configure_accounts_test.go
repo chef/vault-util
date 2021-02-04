@@ -223,7 +223,7 @@ func TestConfigureAccountsE(t *testing.T) {
 		assert.Equal(t, "aws configure set aws_access_key_id fake-access-key-id --profile my-account", configureCommands[0])
 		assert.Equal(t, "aws configure set aws_secret_access_key fake-secret-access-key+ --profile my-account", configureCommands[1])
 		assert.Equal(t, "aws configure set aws_session_token fake-secret-token --profile my-account", configureCommands[2])
-		assert.Equal(t, "aws configure set region us-east-1 --profile my-account", configureCommands[3])
+		assert.Equal(t, "aws configure set region us-west-2 --profile my-account", configureCommands[3])
 
 		os.Unsetenv("VAULT_UTIL_ACCOUNTS")
 		output.Reset()

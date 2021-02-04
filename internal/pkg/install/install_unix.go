@@ -6,7 +6,7 @@ package install
 const DefaultRootParentDir string = "/opt"
 
 // DefaultSettingsDir - default dir for settings.
-const DefaultSettingsDir string = "/var/opt/ci-utils"
+const DefaultSettingsDir string = "/var/opt/ci-settings"
 
 // binName returns the name of binary based on the OS.
 func binName(binary string) string {
