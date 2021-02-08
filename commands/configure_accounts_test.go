@@ -17,7 +17,7 @@ import (
 	minify "github.com/tdewolff/minify/v2"
 	"github.com/tdewolff/minify/v2/json"
 
-	"github.com/chef/vault-util/internal/pkg/filesystem"
+	filesystem "github.com/chef/go-filesystem"
 	"github.com/chef/vault-util/internal/pkg/install"
 	"github.com/chef/vault-util/internal/pkg/secrets"
 )
