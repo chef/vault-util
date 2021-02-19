@@ -1,11 +1,16 @@
 # Changelog
 
-<!-- latest_release 2.0.1 -->
+<!-- latest_release 2.0.2 -->
+## [2.0.2](https://github.com/chef/vault-util/tree/2.0.2) (2021-02-19)
+
+#### Merged Pull Requests
+- Build for darwin/arm64 [#13](https://github.com/chef/vault-util/pull/13) ([tduffield](https://github.com/tduffield))
+<!-- latest_release -->
+
 ## [2.0.1](https://github.com/chef/vault-util/tree/2.0.1) (2021-02-19)
 
 #### Merged Pull Requests
 - Use the shared and extracted go-filesystem module [#12](https://github.com/chef/vault-util/pull/12) ([tduffield](https://github.com/tduffield))
-<!-- latest_release -->
 
 ## [2.0.0](https://github.com/chef/vault-util/tree/2.0.0) (2021-02-04)
 
