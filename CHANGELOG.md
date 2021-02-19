@@ -1,11 +1,16 @@
 # Changelog
 
-<!-- latest_release 2.0.2 -->
+<!-- latest_release 2.0.3 -->
+## [2.0.3](https://github.com/chef/vault-util/tree/2.0.3) (2021-02-19)
+
+#### Merged Pull Requests
+- Use the new --target-props CLI option [#14](https://github.com/chef/vault-util/pull/14) ([tduffield](https://github.com/tduffield))
+<!-- latest_release -->
+
 ## [2.0.2](https://github.com/chef/vault-util/tree/2.0.2) (2021-02-19)
 
 #### Merged Pull Requests
 - Build for darwin/arm64 [#13](https://github.com/chef/vault-util/pull/13) ([tduffield](https://github.com/tduffield))
-<!-- latest_release -->
 
 ## [2.0.1](https://github.com/chef/vault-util/tree/2.0.1) (2021-02-19)
 
