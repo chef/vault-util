@@ -11,7 +11,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/chef/vault-util/internal/pkg/filesystem"
+	filesystem "github.com/chef/go-filesystem"
 	"github.com/chef/vault-util/internal/pkg/install"
 	"github.com/chef/vault-util/internal/pkg/secrets"
 )
