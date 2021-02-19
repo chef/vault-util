@@ -8,7 +8,7 @@ files=()
 function download_artifacts {
   os=$1
   arch=$2
-  
+
   echo "--- Artifactory download vault-util binaries for ${os} ${arch}"
   jfrog rt dl \
   --apikey="${art_token}" \
@@ -35,7 +35,9 @@ function download_artifacts {
 }
 
 download_artifacts linux amd64
+download_artifacts linux arm64
 download_artifacts darwin amd64
+download_artifacts darwin arm64
 download_artifacts windows amd64
 
 notes=$(sed -n -E '/<!-- latest_release (.+) -->|<!-- latest_release -->/,/<!-- latest_release -->/p' CHANGELOG.md)
