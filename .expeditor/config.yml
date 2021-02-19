@@ -10,10 +10,9 @@ pipelines:
       public: true
   - go/build
 
-promote:
-  channels:
-    - unstable
-    - stable
+artifact_channels:
+  - unstable
+  - stable
 
 github:
   delete_branch_on_merge: true
