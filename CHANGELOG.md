@@ -1,11 +1,16 @@
 # Changelog
 
-<!-- latest_release 2.0.0 -->
+<!-- latest_release 2.0.1 -->
+## [2.0.1](https://github.com/chef/vault-util/tree/2.0.1) (2021-02-19)
+
+#### Merged Pull Requests
+- Use the shared and extracted go-filesystem module [#12](https://github.com/chef/vault-util/pull/12) ([tduffield](https://github.com/tduffield))
+<!-- latest_release -->
+
 ## [2.0.0](https://github.com/chef/vault-util/tree/2.0.0) (2021-02-04)
 
 #### Merged Pull Requests
 - Some fixes [#11](https://github.com/chef/vault-util/pull/11) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
-<!-- latest_release -->
 
 ## [1.0.8](https://github.com/chef/vault-util/tree/1.0.8) (2021-02-02)
 
