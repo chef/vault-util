@@ -9,9 +9,9 @@ You can install the vault-util utility for a specific OS at https://github.com/c
 Currently available for:
 OS | ARCH
 --- | ---
-Darwin | x86-64 (amd64)
-Linux | x86-64 (amd64)
-Windows | x86-64 (amd64)
+Darwin | x86_64 (amd64), arm64
+Linux | x86_64 (amd64), arm64
+Windows | x86_64 (amd64)
 
 ### Build
 
