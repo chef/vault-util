@@ -34,8 +34,10 @@ function download_artifacts {
   done
 }
 
+download_artifacts freebsd amd64
 download_artifacts linux amd64
 download_artifacts linux arm64
+download_artifacts linux 386
 download_artifacts darwin amd64
 download_artifacts darwin arm64
 download_artifacts windows amd64
