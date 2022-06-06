@@ -23,7 +23,7 @@ do
 
   jfrog rt u \
   --apikey="${ARTIFACTORY_TOKEN}" \
-  --url=https://artifactory.chef.co/artifactory \
+  --url=https://artifactory-internal.ps.chef.co/artifactory \
   --target-props "project=${util_name};version=${version};os=${os};arch=${arch}" \
   "${file}" \
   "go-binaries-local/${util_name}/${version}/${os}/${arch}/${binary}"
