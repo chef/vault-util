@@ -10,7 +10,8 @@ Currently available for:
 OS | ARCH
 --- | ---
 Darwin | x86_64 (amd64), arm64
-Linux | x86_64 (amd64), arm64
+FreeBSD | x86_64 (amd64)
+Linux | 386, x86_64 (amd64), arm64
 Windows | x86_64 (amd64)
 
 ### Build

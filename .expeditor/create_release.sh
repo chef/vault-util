@@ -12,7 +12,7 @@ function download_artifacts {
   echo "--- Artifactory download vault-util binaries for ${os} ${arch}"
   jfrog rt dl \
   --apikey="${art_token}" \
-  --url="https://artifactory.chef.co/artifactory" \
+  --url="https://artifactory-internal.ps.chef.co/artifactory" \
   --flat \
   --detailed-summary \
   --props "project=vault-util;version=${version};os=${os};arch=${arch}" \
@@ -34,8 +34,10 @@ function download_artifacts {
   done
 }
 
+download_artifacts freebsd amd64
 download_artifacts linux amd64
 download_artifacts linux arm64
+download_artifacts linux 386
 download_artifacts darwin amd64
 download_artifacts darwin arm64
 download_artifacts windows amd64
