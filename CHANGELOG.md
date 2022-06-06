@@ -1,11 +1,16 @@
 # Changelog
 
-<!-- latest_release 2.0.4 -->
+<!-- latest_release 2.0.5 -->
+## [2.0.5](https://github.com/chef/vault-util/tree/2.0.5) (2022-06-06)
+
+#### Merged Pull Requests
+- Updates to get builds working [#17](https://github.com/chef/vault-util/pull/17) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
+<!-- latest_release -->
+
 ## [2.0.4](https://github.com/chef/vault-util/tree/2.0.4) (2022-06-06)
 
 #### Merged Pull Requests
 - Add freebsd_amd64 and linux_386 to build matrix [#16](https://github.com/chef/vault-util/pull/16) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
-<!-- latest_release -->
 
 ## [2.0.3](https://github.com/chef/vault-util/tree/2.0.3) (2021-02-19)
 
