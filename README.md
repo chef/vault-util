@@ -38,3 +38,6 @@ Flags:
 Use "vault-util [command] --help" for more information about a command.
 ```
 <!-- stdout -->
+
+# Copyright
+See [COPYRIGHT.md](./COPYRIGHT.md).
