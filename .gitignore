@@ -11,3 +11,5 @@ dist/
 go-binaries/
 *.zip
 *.tar.gz
+
+.env
